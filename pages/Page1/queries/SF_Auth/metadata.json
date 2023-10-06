@@ -44,11 +44,11 @@
         },
         {
           "key": "username",
-          "value": "fscadmin5@gs0ee3.org"
+          "value": "{{username.text}}"
         },
         {
           "key": "password",
-          "value": "test@1234567zVUm1T3LxVvfFqpwIyoFUkUW"
+          "value": "{{password.text}}zVUm1T3LxVvfFqpwIyoFUkUW"
         }
       ],
       "body": "",
@@ -65,11 +65,21 @@
       }
     },
     "executeOnLoad": false,
-    "dynamicBindingPathList": [],
+    "dynamicBindingPathList": [
+      {
+        "key": "queryParameters[3].value"
+      },
+      {
+        "key": "queryParameters[4].value"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [],
+    "jsonPathKeys": [
+      "password.text",
+      "username.text"
+    ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
