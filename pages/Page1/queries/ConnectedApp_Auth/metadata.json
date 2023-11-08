@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "SF_Auth",
+    "name": "ConnectedApp_Auth",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
@@ -86,7 +86,7 @@
     "userPermissions": [],
     "createdAt": "2023-10-06T08:17:56Z"
   },
-  "id": "Page1_SF_Auth",
+  "id": "Page1_ConnectedApp_Auth",
   "deleted": false,
   "gitSyncId": "651fc29ffce05f040d06c177_651fc2b4b598236b1d6535ad"
 }

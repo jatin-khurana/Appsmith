@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 23,
     "widgetName": "login",
-    "onClick": "{{SF_Auth.run().then(() => {\n  showAlert('Welcome to Salesforce', 'success');\n  storeValue('bearer', SF_Auth.data.access_token);\n  showAlert(appsmith.store.bearer, '');\n  navigateTo('Page2', {}, 'SAME_WINDOW');\n}).catch(() => {\n  showAlert('Invalid credentials', 'error');\n});}}",
+    "onClick": "{{ConnectedApp_Auth.run().then(() => {\n  showAlert('Welcome to Salesforce', 'success');\n  storeValue('bearer', ConnectedApp_Auth.data.access_token);\n  showAlert(appsmith.store.bearer, '');\n  navigateTo('Investors', {}, 'SAME_WINDOW');\n}).catch(() => {\n  showAlert('Invalid credentials', 'error');\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
