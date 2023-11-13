@@ -7,14 +7,6 @@
     {
       "id": "Page1",
       "isDefault": true
-    },
-    {
-      "id": "Page2",
-      "isDefault": false
-    },
-    {
-      "id": "Page3",
-      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -22,7 +14,7 @@
   "unreadCommentThreads": 0,
   "unpublishedApplicationDetail": {
     "appPositioning": {
-      "type": "FIXED"
+      "type": "AUTO"
     },
     "navigationSetting": {
       "showNavbar": true,
@@ -42,7 +34,7 @@
     "type": "FLUID"
   },
   "publishedAppLayout": {
-    "type": "TABLET_LARGE"
+    "type": "FLUID"
   },
   "unpublishedCustomJSLibs": [
     {

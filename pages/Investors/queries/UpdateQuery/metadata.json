@@ -101,6 +101,9 @@
           "viewType": "component",
           "componentData": "ROWS"
         },
+        "range": {
+          "data": ""
+        },
         "rowObjects": {
           "data": "{\n\t  \"rowIndex\": {{data_table.selectedItem.rowIndex}}, \n\t\t\"interestLevel\": \"{{Rating1Copy.value}}\", \n\t\t\"website\": \"{{colInput2Copy.text}}\", \n\t\t\"address\": \"{{colInput3Copy.text}}\", \n\t\t\"topInvestments\": \"{{colInput4Copy.text}}\"\n}",
           "viewType": "component",
@@ -152,7 +155,8 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-10-06T09:44:16Z"
   },
   "id": "Investors_UpdateQuery",
   "deleted": false,

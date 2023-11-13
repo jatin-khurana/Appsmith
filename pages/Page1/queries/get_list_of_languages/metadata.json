@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "GET_Assessment_Question",
+    "name": "get_list_of_languages",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
@@ -20,7 +20,7 @@
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
-      "path": "/services/data/v59.0/sobjects/AssessmentQuestion/0U4B0000000H1mfKAC",
+      "path": "/services/data/v59.0/ui-api/object-info/OmniProcess/picklist-values/012000000000000AAA/Language",
       "headers": [
         {
           "key": "Authorization",
@@ -58,9 +58,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-10-06T09:14:11Z"
+    "createdAt": "2023-11-10T08:19:47Z"
   },
-  "id": "Page1_GET_Assessment_Question",
+  "id": "Page1_get_list_of_languages",
   "deleted": false,
-  "gitSyncId": "651fc29ffce05f040d06c177_651fcfe3b598236b1d6536c0"
+  "gitSyncId": "651fc29ffce05f040d06c177_654de7a37475ac4fb3c1b421"
 }
