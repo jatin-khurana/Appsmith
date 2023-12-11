@@ -3,7 +3,7 @@
   "pluginId": "js-plugin",
   "unpublishedAction": {
     "name": "myFun1",
-    "fullyQualifiedName": "JSObject1.myFun1",
+    "fullyQualifiedName": "JSObject12.myFun1",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,8 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
-    "collectionId": "Page1_JSObject1",
+    "pageId": "Investors",
+    "collectionId": "Investors_JSObject12",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -36,9 +36,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2023-11-10T09:32:01Z"
+    "createdAt": "2023-12-11T12:22:39Z"
   },
-  "id": "Page1_JSObject1.myFun1",
+  "id": "Investors_JSObject12.myFun1",
   "deleted": false,
-  "gitSyncId": "651fc29ffce05f040d06c177_654df8917475ac4fb3c1b4a2"
+  "gitSyncId": "651fc29ffce05f040d06c177_6576ff0f7afd225fbc4fd497"
 }
