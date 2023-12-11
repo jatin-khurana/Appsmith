@@ -38,20 +38,19 @@
         {"key": "schema.__root_schema__.children.What__39_s_your_first_name_.defaultValue"},
         {"key": "schema.__root_schema__.children.What__39_s_your_first_name_.accentColor"},
         {"key": "schema.__root_schema__.children.What__39_s_your_first_name_.borderRadius"},
-        {"key": "isVisible"},
-        {"key": "autoGenerateForm"}
+        {"key": "isVisible"}
     ],
     "showReset": true,
     "flexVerticalAlignment": "start",
     "dynamicHeight": "AUTO_HEIGHT",
-    "autoGenerateForm": "{{!Button12.isVisible && Button12.onClick}}",
+    "autoGenerateForm": true,
     "resetButtonStyles": {
         "boxShadow": "none",
         "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
         "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
         "buttonVariant": "SECONDARY"
     },
-    "isVisible": "{{flag == 1}}",
+    "isVisible": "{{ !appsmith.resetWidget(\"JSONForm1\").then(() => JSONForm1.isValid) }}",
     "version": 1,
     "tags": [
         "Suggested",
@@ -334,8 +333,7 @@
     },
     "dynamicPropertyPathList": [
         {"key": "sourceData"},
-        {"key": "isVisible"},
-        {"key": "autoGenerateForm"}
+        {"key": "isVisible"}
     ],
     "displayName": "JSON Form",
     "bottomRow": 78,
