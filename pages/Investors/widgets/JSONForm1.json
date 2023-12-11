@@ -38,19 +38,20 @@
         {"key": "schema.__root_schema__.children.What__39_s_your_first_name_.defaultValue"},
         {"key": "schema.__root_schema__.children.What__39_s_your_first_name_.accentColor"},
         {"key": "schema.__root_schema__.children.What__39_s_your_first_name_.borderRadius"},
-        {"key": "isVisible"}
+        {"key": "isVisible"},
+        {"key": "autoGenerateForm"}
     ],
     "showReset": true,
     "flexVerticalAlignment": "start",
     "dynamicHeight": "AUTO_HEIGHT",
-    "autoGenerateForm": true,
+    "autoGenerateForm": "{{!Button12.isVisible && Button12.onClick}}",
     "resetButtonStyles": {
         "boxShadow": "none",
         "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
         "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
         "buttonVariant": "SECONDARY"
     },
-    "isVisible": "{{!Button12.isDisabled}}",
+    "isVisible": "{{flag == 1}}",
     "version": 1,
     "tags": [
         "Suggested",
@@ -312,8 +313,13 @@
         "position": -1,
         "isDisabled": false,
         "sourceData": {
-            "AA": "",
-            "BB": ""
+            "Given Name": "",
+            "Comments": "",
+            "First Name": "",
+            "What&#39;s your first name?": "",
+            "Please provide your name": "",
+            "Please Provide Bill Date": "",
+            "Last Name": ""
         },
         "cellBoxShadow": "none",
         "fieldType": "Object"
@@ -328,7 +334,8 @@
     },
     "dynamicPropertyPathList": [
         {"key": "sourceData"},
-        {"key": "isVisible"}
+        {"key": "isVisible"},
+        {"key": "autoGenerateForm"}
     ],
     "displayName": "JSON Form",
     "bottomRow": 78,
