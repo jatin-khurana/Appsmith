@@ -54,6 +54,6 @@
     "maxDynamicHeight": 9000,
     "shouldAllowAutofill": true,
     "iconAlign": "left",
-    "defaultText": "fscadmin5@gs0ee3.org",
+    "defaultText": "",
     "minDynamicHeight": 4
 }
