@@ -1,12 +1,16 @@
 {
   "pages": [
     {
-      "id": "Investors",
+      "id": "enter script id",
       "isDefault": false
     },
     {
-      "id": "Page1",
+      "id": "login",
       "isDefault": true
+    },
+    {
+      "id": "view form",
+      "isDefault": false
     }
   ],
   "viewMode": false,

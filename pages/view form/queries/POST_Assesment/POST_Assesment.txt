@@ -1,0 +1,11 @@
+{
+	"inputs": {
+		"questionResponses": {{oneCopy.myFun1.data}}
+	},
+		"contextId": "",
+		"assessmentValues": {
+			"Assessment.AssessmentStatus": "Completed",
+			"Assessment.AssessmentRating": "High",
+			"Assessment.Name": "Created via 3rd party: AppSmith"
+		}
+	}
