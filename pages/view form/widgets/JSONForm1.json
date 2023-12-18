@@ -673,7 +673,7 @@
     "bottomRow": 178,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
-    "title": "Assessment Form :  {{get_DFTOS.data.name}}",
+    "title": "{{get_DFTOS.data.name}}",
     "hideCard": false,
     "parentColumnSpace": 17.296875,
     "dynamicTriggerPathList": [{"key": "onSubmit"}],
